@@ -1,5 +1,7 @@
-<!-- jQuery -->
-window.jQuery || document.write('<script src="js/jquery.min.js">\x3C/script>')
+// jquery-ba-cond
+(function($){$.fn.cond=function(){var e,a=arguments,b=0,f,d,c;while(!f&&b<a.length){f=a[b++];d=a[b++];f=$.isFunction(f)?f.call(this):f;c=!d?f:f?d.call(this,f):e}return c!==e?c:this}})(jQuery);
+
+window.jQuery || document.write('<script src="js/jquery.min.js">\x3C/script>');
     
 $(document).ready(function(){   
 
@@ -12,7 +14,6 @@ $(document).ready(function(){
 });
 
 
-<!-- NAVIGATION SLIDES -->
 $(function() {
 	var Page = (function() {
 
