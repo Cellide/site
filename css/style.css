@@ -598,7 +598,7 @@ a.sc-icons:hover {
   font-size: 20px;
   text-align: center; }
 .filter-container .items li a:hover .bg-container {
-  opacity: 1;
+  opacity: 0.5;
   height: 100%; }
 .filter-container .items li a:hover i {
   opacity: 1; }
