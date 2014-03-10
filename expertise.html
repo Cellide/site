@@ -17,30 +17,35 @@
 
 <head>
 <meta charset="UTF-8" />
-<meta name="description" content="" />
-<meta name="keywords" content="" />
-<meta name="author" content="Your name" />
-<link rel="shortcut icon" href="images/favicon.ico">
-<title>Webfolio | Responsive Retina Ready</title>
+<meta name="description" content="A Cellide é uma empresa de desenvolvimento Web com foco em criação de plataformas para sites & apps." />
+<meta name="keywords" content="cellide, picker, takesquare, desenvolvimento, programação" />
+<meta name="author" content="Fernando Piancastelli" />
+
+<link rel="shortcut icon" href="favicon.ico">
+
+<title>Cellide | Expertise</title>
 
 <!-- Mobile viewport optimized: j.mp/bplateviewport -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <!-- Style -->
+<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet" />
 <link href="css/style.css" rel="stylesheet" />
 <link href="css/shortcodes.css" rel="stylesheet" />
 <link href="css/responsive.css" rel="stylesheet" />
-<link href="css/font-awesome.css" rel="stylesheet" />
-<link href="css/font-awesome.min.css" rel="stylesheet" />
 
 <!-- Importing Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+<script src="js/functions.js"></script>
+
 </head>
 
 <body>
 <div id="wrapper"> 
-  
   <!-- HEADER -->
   <div id="header">
     <div class="btn-responsive-menu"> <span class="span-bar"></span> <span class="span-bar"></span> <span class="span-bar"></span> </div>
@@ -48,19 +53,17 @@
       <div class="box-logo"><a href="index.html"><img alt="logo" src="images/logo.png" /></a></div>
       <div class="box-logo-mobile"><a href="index.html"><img alt="logo" src="images/logo-mobile.png" /></a></div>
       <ul class="nav">
-        
-        <!-- CHANGE THE MENU TITLES HERE -->
-        <li><a id="link-profile" href="profile.html" >
-          <div class="menu-name">My Profile</div>
+        <li><a id="link-profile" href="team.html" >
+          <div class="menu-name">Equipe</div>
           </a></li>
         <li><a id="link-portfolio" href="portfolio.html" >
           <div class="menu-name">Portfolio</div>
           </a></li>
-        <li class="current"><a id="link-resume" href="resume.html" >
-          <div class="menu-name">Resume</div>
+        <li class="current"><a id="link-resume" href="expertise.html" >
+          <div class="menu-name">Expertise</div>
           </a></li>
         <li><a id="link-contact" href="contact.html">
-          <div class="menu-name">Contact</div>
+          <div class="menu-name">Contato</div>
           </a></li>
       </ul>
     </div>
@@ -74,70 +77,86 @@
     <section id="profile">
       <div class="content">
         <div class="two-third-first"><!-- two-third-first Starts here-->
-          <h3>Latest Jobs</h3>
+          <h3>Clientes & Projetos</h3>
           <div class="spacer"></div>
           
           <!-- Timeline -->
           <ul class="timeline">
-            <li><!-- Item Starts Here-->
-              <div class="date">2010 - 2013</div>
-              <div class="icon"><i class="icon-edit-sign"></i></div>
-              <div class="info"> <span class="type">Master Graphic Designer</span> <span class="company green">Orange & Co</span>
-                <p>Heaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed. Consequatur, earum, sunt a tenetur.</p>
+            
+			<li><!-- Item Starts Here-->
+              <div class="date">2014</div>
+              <div class="icon"><i class="icon-star"></i></div>
+              <div class="info"> <span class="type">Picker</span> <span class="company green">Cellide</span>
+                <p>Ferramenta de busca e comparação de produtos personalizada.<br />
+					<a href="pages/picker.html">Veja a página do projeto</a>.</p>
               </div>
             </li>
             <!-- Item Ends Here-->
-            
-            <li><!-- Item Starts Here-->
-              <div class="date">2011 - 2013</div>
-              <div class="icon"><i class="icon-camera"></i></div>
-              <div class="info"> <span class="type">Photographer</span> <span class="company green">Fashion Design Magazine</span>
-                <p>Heaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed. Consequatur, earum, sunt a tenetur.</p>
+			
+            <!-- Item Ends Here-->
+			<li><!-- Item Starts Here-->
+              <div class="date">2014</div>
+              <div class="icon"><i class="icon-star"></i></div>
+              <div class="info"> <span class="type">Hotsite Campanha<br />"Aqui tem Você"</span> <span class="company green">Natura</span>
+                <p>Hotsite com vídeo interativo para a campanha "Aqui tem Você" da Natura.<br />
+					<a href="pages/natura.html">Veja a página do projeto</a>.</p>
               </div>
             </li>
             <!-- Item Ends Here-->
-            
+			
+			<li><!-- Item Starts Here-->
+              <div class="date">2013</div>
+              <div class="icon"><i class="icon-star"></i></div>
+              <div class="info"> <span class="type">SX2</span> <span class="company green">Cellide</span>
+                <p>Serviço de integração de vídeo e áudio na nuvem, completo com armazenamento, encoding em vários formatos e adaptividade à banda do usuário.<br />
+					<a href="pages/sx2.html">Veja a página do projeto</a>.</p>
+              </div>
+            </li>
+			
+			<li><!-- Item Starts Here-->
+              <div class="date">2013</div>
+              <div class="icon"><i class="icon-star"></i></div>
+              <div class="info"> <span class="type">98FM no ENEM</span> <span class="company green">Academia de Idéias &amp; 98FM </span>
+                <p>Customização do portal Silva Cursos para a 98FM, com foco em preparação para o ENEM.<br />
+					<a href="pages/98fmnoenem.html">Veja a página do projeto</a>.</p>
+              </div>
+            </li>
+            <!-- Item Ends Here-->
+			
+			<li><!-- Item Starts Here-->
+              <div class="date">2013</div>
+              <div class="icon"><i class="icon-star"></i></div>
+              <div class="info"> <span class="type">Silva Cursos</span> <span class="company green">Academia de Idéias</span>
+                <p>E-Commerce para educação e desenvolvimento pessoal.<br />
+					<a href="pages/silvacursos2013.html">Veja a página do projeto</a>.</p>
+              </div>
+            </li>
+            <!-- Item Ends Here-->
+			
             <li><!-- Item Starts Here-->
-              <div class="date">2012 - 2013</div>
-              <div class="icon"><i class="icon-facetime-video"></i></div>
-              <div class="info"> <span class="type">Movie Director</span> <span class="company green">Warner & Friends</span>
-                <p>Heaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed. Consequatur, earum, sunt a tenetur.</p>
+              <div class="date">2012</div>
+              <div class="icon"><i class="icon-star"></i></div>
+              <div class="info"> <span class="type">Takesquare</span> <span class="company green">Cellide</span>
+                <p>Takesquare é um jogo geolocalizado em tempo real, utilizado dados de check-in dos usuários.<br />
+					<a href="pages/takesquare.html">Veja a página do projeto</a>.</p>
               </div>
             </li>
             <!-- Item Ends Here-->
           </ul>
           <!-- Timeline Ends Here-->
           
-          <h3>Education & Training</h3>
+          <!--h3>Education & Training</h3>
           <div class="spacer"></div>
-          <!-- Timeline -->
+          <!-- Timeline ->
           <ul class="timeline">
-            <li><!-- Item Starts Here-->
+            <li><!-- Item Starts Here->
               <div class="date">2007 - 2012</div>
               <div class="icon"><i class="icon-book"></i></div>
               <div class="info"> <span class="type">Master Graphic Designer</span> <span class="company green">School of Arts</span>
                 <p>Heaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed. Consequatur, earum, sunt a tenetur.</p>
               </div>
             </li>
-            <!-- Item Ends Here-->
-            
-            <li><!-- Item Starts Here-->
-              <div class="date">2008 - 2009</div>
-              <div class="icon"><i class="icon-book"></i></div>
-              <div class="info"> <span class="type">Photoshop in 100 Hours</span> <span class="company green">Envato</span>
-                <p>Heaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed. Consequatur, earum, sunt a tenetur.</p>
-              </div>
-            </li>
-            <!-- Item Ends Here-->
-            
-            <li><!-- Item Starts Here-->
-              <div class="date">2009 - 2010</div>
-              <div class="icon"><i class="icon-book"></i></div>
-              <div class="info"> <span class="type">Iconik Designer</span> <span class="company green">The less & the more</span>
-                <p>Heaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed. Consequatur, earum, sunt a tenetur.</p>
-              </div>
-            </li>
-            <!-- Item Ends Here-->
+            <!-- Item Ends Here->
           </ul>
           <!-- Timeline Ends Here--> 
           
@@ -147,59 +166,147 @@
         <div class="one-third-last"><!-- one-third-last Starts here--> 
           
           <!-- Skills-->
-          <h3>Skills</h3>
-          <h4 class="skill-type spacer"><i class="icon-edit"></i>&nbsp;&nbsp; Web Design</h4>
+          <h3>Tecnologias</h3>
+		  
+		  <h4 class="skill-type"><i class="icon-star"></i>&nbsp;&nbsp; Picker</h4>
           <ul class="skills">
             <li>
-              <div class="animate bg-green" style="width:99%;"><span>Web Design&nbsp;&nbsp;<i class="icon-hand-right"></i>&nbsp;&nbsp;99%</span></div>
+              <div class="animate bg-green style="width:100%;"><span>Node.JS&nbsp;&nbsp;<i class="icon-puzzle-piece"></i>&nbsp;&nbsp;100%</span></div>
             </li>
             <li>
-              <div class="animate" style="width:97%;"><span>Photoshop&nbsp;&nbsp;<i class="icon-hand-right"></i>&nbsp;&nbsp;97%</span></div>
+              <div class="animate bg-green" style="width:100%;"><span>Cloud&nbsp;&nbsp;<i class="icon-cloud"></i>&nbsp;&nbsp;100%</span></div>
             </li>
             <li>
-              <div class="animate" style="width:88%;"><span>Css&nbsp;&nbsp;<i class="icon-hand-right"></i>&nbsp;&nbsp;88%</span></div>
+              <div class="animate" style="width:100%;"><span>HTML5 &amp; CSS3&nbsp;&nbsp;<i class="icon-html5"></i>&nbsp;&nbsp;100%</span></div>
             </li>
             <li>
-              <div class="animate" style="width:67%;"><span>Java Script&nbsp;&nbsp;<i class="icon-hand-right"></i>&nbsp;&nbsp;67%</span></div>
+              <div class="animate" style="width:100%;"><span>MongoDB&nbsp;&nbsp;<i class="icon-file-text-alt"></i>&nbsp;&nbsp;100%</span></div>
             </li>
             <li>
-              <div class="animate" style="width:54%;"><span>My Sql&nbsp;&nbsp;<i class="icon-hand-right"></i>&nbsp;&nbsp;54%</span></div>
+              <div class="animate" style="width:100%;"><span>API&nbsp;&nbsp;<i class="icon-globe"></i>&nbsp;&nbsp;100%</span></div>
             </li>
             <li>
-              <div class="animate" style="width:43%;"><span>Maya&nbsp;&nbsp;<i class="icon-hand-right"></i>&nbsp;&nbsp;43%</span></div>
+              <div class="animate" style="width:100%;"><span>AngularJS&nbsp;&nbsp;<i class="icon-bolt"></i>&nbsp;&nbsp;100%</span></div>
+            </li>
+            <li>
+              <div class="animate" style="width:30%;"><span>Social&nbsp;&nbsp;<i class="icon-share"></i>&nbsp;&nbsp;30%</span></div>
             </li>
           </ul>
-          <h4 class="skill-type"><i class="icon-camera"></i>&nbsp;&nbsp; Photography</h4>
+		  
+		  <h4 class="skill-type"><i class="icon-star"></i>&nbsp;&nbsp; Hotsite "Aqui tem Você"</h4>
           <ul class="skills">
             <li>
-              <div class="animate" style="width:65%;"><span>Sony&nbsp;&nbsp;<i class="icon-hand-right"></i>&nbsp;&nbsp;65%</span></div>
+              <div class="animate bg-green" style="width:100%;"><span>Flash&nbsp;&nbsp;<i class="icon-play"></i>&nbsp;&nbsp;100%</span></div>
             </li>
             <li>
-              <div class="animate" style="width:45%;"><span>Nikon&nbsp;&nbsp;<i class="icon-hand-right"></i>&nbsp;&nbsp;45%</span></div>
+              <div class="animate" style="width:100%;"><span>ActionScript&nbsp;&nbsp;<i class="icon-bolt"></i>&nbsp;&nbsp;100%</span></div>
             </li>
             <li>
-              <div class="animate bg-green" style="width:98%;"><span>Canon&nbsp;&nbsp;<i class="icon-hand-right"></i>&nbsp;&nbsp;98%</span></div>
-            </li>
-            <li>
-              <div class="animate" style="width:35%;"><span>Tamrom&nbsp;&nbsp;<i class="icon-hand-right"></i>&nbsp;&nbsp;35%</span></div>
-            </li>
-            <li>
-              <div class="animate" style="width:54%;"><span>Sigma&nbsp;&nbsp;<i class="icon-hand-right"></i>&nbsp;&nbsp;54%</span></div>
+              <div class="animate" style="width:80%;"><span>Vídeo&nbsp;&nbsp;<i class="icon-forward"></i>&nbsp;&nbsp;80%</span></div>
             </li>
           </ul>
-          <h4 class="skill-type"><i class="icon-random"></i>&nbsp;&nbsp; Other Random Skills</h4>
+          
+		  <h4 class="skill-type"><i class="icon-star"></i>&nbsp;&nbsp; SX2</h4>
+          <ul class="skills">
+            <li>
+              <div class="animate bg-green" style="width:100%;"><span>Cloud&nbsp;&nbsp;<i class="icon-cloud"></i>&nbsp;&nbsp;100%</span></div>
+            </li>
+            <li>
+              <div class="animate" style="width:100%;"><span>PHP&nbsp;&nbsp;<i class="icon-linux"></i>&nbsp;&nbsp;100%</span></div>
+            </li>
+            <li>
+              <div class="animate" style="width:100%;"><span>Vídeo&nbsp;&nbsp;<i class="icon-forward"></i>&nbsp;&nbsp;100%</span></div>
+            </li>
+			<li>
+              <div class="animate" style="width:100%;"><span>Áudio&nbsp;&nbsp;<i class="icon-microphone"></i>&nbsp;&nbsp;100%</span></div>
+            </li>
+            <li>
+              <div class="animate" style="width:100%;"><span>API&nbsp;&nbsp;<i class="icon-globe"></i>&nbsp;&nbsp;100%</span></div>
+            </li>
+          </ul>
+		  
+		  <h4 class="skill-type"><i class="icon-star"></i>&nbsp;&nbsp; Silva Cursos</h4>
+          <ul class="skills">
+            <li>
+              <div class="animate bg-green" style="width:100%;"><span>PHP&nbsp;&nbsp;<i class="icon-linux"></i>&nbsp;&nbsp;100%</span></div>
+            </li>
+			<li>
+              <div class="animate bg-green" style="width:100%;"><span>Vídeo&nbsp;&nbsp;<i class="icon-forward"></i>&nbsp;&nbsp;100%</span></div>
+            </li>
+			<li>
+              <div class="animate" style="width:100%;"><span>Zend&nbsp;&nbsp;<i class="icon-gear"></i>&nbsp;&nbsp;100%</span></div>
+            </li>
+            <li>
+              <div class="animate" style="width:100%;"><span>MySQL&nbsp;&nbsp;<i class="icon-table"></i>&nbsp;&nbsp;100%</span></div>
+            </li>
+			<li>
+              <div class="animate" style="width:80%;"><span>HTML5 &amp; CSS3&nbsp;&nbsp;<i class="icon-html5"></i>&nbsp;&nbsp;80%</span></div>
+            </li>
+            <li>
+              <div class="animate" style="width:50%;"><span>jQuery&nbsp;&nbsp;<i class="icon-bolt"></i>&nbsp;&nbsp;50%</span></div>
+            </li>
+            <li>
+              <div class="animate" style="width:40%;"><span>Social&nbsp;&nbsp;<i class="icon-share"></i>&nbsp;&nbsp;40%</span></div>
+            </li>
+            <li>
+              <div class="animate" style="width:30%;"><span>Cloud&nbsp;&nbsp;<i class="icon-cloud"></i>&nbsp;&nbsp;30%</span></div>
+            </li>
+          </ul>
+		  
+		  <h4 class="skill-type spacer"><i class="icon-star"></i>&nbsp;&nbsp; Takesquare</h4>
+          <ul class="skills">
+            <li>
+              <div class="animate bg-green" style="width:100%;"><span>PHP&nbsp;&nbsp;<i class="icon-linux"></i>&nbsp;&nbsp;100%</span></div>
+            </li>
+            <li>
+              <div class="animate bg-green" style="width:100%;"><span>Foursquare&nbsp;&nbsp;<i class="icon-foursquare"></i>&nbsp;&nbsp;100%</span></div>
+            </li>
+			<li>
+              <div class="animate" style="width:100%;"><span>CodeIgniter&nbsp;&nbsp;<i class="icon-gear"></i>&nbsp;&nbsp;100%</span></div>
+            </li>
+            <li>
+              <div class="animate" style="width:100%;"><span>APIs&nbsp;&nbsp;<i class="icon-globe"></i>&nbsp;&nbsp;100%</span></div>
+            </li>
+            <li>
+              <div class="animate" style="width:100%;"><span>MySQL&nbsp;&nbsp;<i class="icon-table"></i>&nbsp;&nbsp;100%</span></div>
+            </li>
+            <li>
+              <div class="animate" style="width:80%;"><span>HTML5 &amp; CSS&nbsp;&nbsp;<i class="icon-html5"></i>&nbsp;&nbsp;80%</span></div>
+            </li>
+            <li>
+              <div class="animate" style="width:80%;"><span>jQuery&nbsp;&nbsp;<i class="icon-bolt"></i>&nbsp;&nbsp;80%</span></div>
+            </li>
+			<li>
+              <div class="animate" style="width:50%;"><span>Social&nbsp;&nbsp;<i class="icon-share"></i>&nbsp;&nbsp;50%</span></div>
+            </li>
+            <li>
+              <div class="animate" style="width:30%;"><span>Mobile&nbsp;&nbsp;<i class="icon-mobile-phone"></i>&nbsp;&nbsp;30%</span></div>
+            </li>
+          </ul>
+		  
+		  
+          <h3 class="skill-type">Práticas de desenvolvimento</h3>
           <ul class="skills-2">
-            <li><span><i class="icon-glass"></i>&nbsp;&nbsp;Cocktail Maker | The Best</span>
-              <div class="animate  bg-green" style="width:99%;"></div>
+			<li><span><i class="icon-gear"></i>&nbsp;&nbsp;Frameworks</span>
+              <div class="animate bg-green" style="width:100%;"></div>
             </li>
-            <li><span><i class="icon-food"></i>&nbsp;&nbsp;Cooking | Excellent</span>
-              <div class="animate" style="width:97%;"></div>
+            <li><span><i class="icon-github"></i>&nbsp;&nbsp;Controle de versão</span>
+              <div class="animate bg-green" style="width:100%;"></div>
             </li>
-            <li><span><i class="icon-plane"></i>&nbsp;&nbsp;Pilot | Very Good</span>
-              <div class="animate" style="width:88%;"></div>
+            <li><span><i class="icon-html5"></i>&nbsp;&nbsp;Design responsivo</span>
+              <div class="animate" style="width:100%;"></div>
             </li>
-            <li><span><i class="icon-puzzle-piece"></i>&nbsp;&nbsp;Puzzle Maker | Very Bad</span>
-              <div class="animate bg-red" style="width:27%;"></div>
+            <li><span><i class="icon-long-arrow-right"></i>&nbsp;&nbsp;Testes unitários</span>
+              <div class="animate" style="width:80%;"></div>
+            </li>
+            <li><span><i class="icon-exchange"></i>&nbsp;&nbsp;Integração contínua</span>
+              <div class="animate" style="width:80%;"></div>
+            </li>
+            <li><span><i class="icon-heart"></i>&nbsp;&nbsp;Monitoramento de qualidade de serviço</span>
+              <div class="animate" style="width:80%;"></div>
+            </li>
+            <li><span><i class="icon-tasks"></i>&nbsp;&nbsp;Gerenciamento de projetos</span>
+              <div class="animate" style="width:80%;"></div>
             </li>
           </ul>
         </div>
@@ -210,22 +317,34 @@
     <!-- PROFILE SECTION ENDS --> 
     
     <!-- FOOTER SECTION -->
-    <div id="footer">
-      <div class="inner-footer">
-        <div class="one-half-first copyright white">All Rights Reserved to Webfolio 2013</div>
-        <div class="one-half-last txt-right"><a class="sc-icons" href="#"><i class="icon-twitter green"></i></a><a class="sc-icons" href="#"><i class="icon-facebook green"></i></a><a class="sc-icons" href="#"><i class="icon-pinterest green"></i></a><a class="sc-icons" href="#"><i class="icon-linkedin green"></i></a><a class="sc-icons" href="#"><i class="icon-flickr green"></i></a></div>
+  <div id="footer-home">
+    <div class="inner-footer">
+      <div class="one-half-first copyright white footer-col1">Cellide</div>
+      <div class="one-half-first txt-right footer-col2">
+      	<div class="fb-like" data-href="https://www.facebook.com/Cellide" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"> </div>
       </div>
+      <div class="one-half-last txt-right footer-col3">
+      	<a class="sc-icons" href="https://www.facebook.com/cellide"><i class="icon-facebook green"></i></a>
+      	<a class="sc-icons" href="https://twitter.com/CellideTI"><i class="icon-twitter green"></i></a>
+      	<a class="sc-icons" href="https://github.com/Cellide"><i class="icon-github green"></i></a>
+      	<a class="sc-icons" href="http://www.linkedin.com/company/cellide"><i class="icon-linkedin green"></i></a>
     </div>
-    <!-- #footer --> 
+  </div>
+  <!-- #footer --> 
   </div>
   <!-- #container --> 
 </div>
 <!-- #wrapper --> 
 
-<!-- JavaScript Files --> 
-<script src="js/jquery.min_1_9.js"></script> 
-<script type="text/javascript" src="js/jquery.min.js"></script> 
-<script type="text/javascript" src="js/functions.js"></script> 
+<!-- Optional JavaScript Files --> 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=1492920740935304";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <script>
     $(function() {
         $("ul li div").each(function() {
