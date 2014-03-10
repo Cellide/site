@@ -1,19 +1,17 @@
 <?php 
 $errors = '';
 $myemail = 'contato@cellide.com';//<-----Put Your email address here.
-if(empty($_POST['name'])  || 
-   empty($_POST['company']) || 
+if(empty($_POST['name'])  ||
    empty($_POST['email']) ||
-   empty($_POST['option']) ||
    empty($_POST['project']))
 {
-    $errors .= "\n Preencha todos os campos";
+    $errors .= "\n Preencha todos os campos obrigatórios";
 }
 
 $name = $_POST['name']; 
-$company = $_POST['company']; 
+$company = $_POST['company'] ?: 'não informada'; 
 $email_address = $_POST['email']; 
-$option = $_POST['option']; 
+$option = $_POST['option'] ?: 'não informado'; 
 $project = $_POST['project']; 
 
 if (!preg_match(

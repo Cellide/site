@@ -16,29 +16,38 @@
 <!--[if gt IE 8]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 <meta charset="UTF-8" />
-<meta name="description" content="" />
-<meta name="keywords" content="" />
-<meta name="author" content="Your name" />
-<link rel="shortcut icon" href="images/favicon.ico">
-<title>Webfolio | Responsive Retina Ready</title>
+<meta name="description" content="A Cellide é uma empresa de desenvolvimento Web com foco em criação de plataformas para sites & apps." />
+<meta name="keywords" content="cellide, picker, takesquare, desenvolvimento, programação" />
+<meta name="author" content="Fernando Piancastelli" />
+
+<link rel="shortcut icon" href="favicon.ico">
+
+<title>Cellide | Desenvolvimento Web</title>
 
 <!-- Mobile viewport optimized: j.mp/bplateviewport -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <!-- Style -->
+<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet" />
 <link href="css/style.css" rel="stylesheet" />
 <link href="css/shortcodes.css" rel="stylesheet" />
 <link href="css/responsive.css" rel="stylesheet" />
 <link href="css/slider.css" rel="stylesheet" />
-<link href="css/font-awesome.css" rel="stylesheet" />
-<link href="css/font-awesome.min.css" rel="stylesheet" />
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="css/styleNoJava.css" />
+</noscript>
 
 <!-- Importing Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
-</head>
 
-<body>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+<script src="js/jquery.slitslider.js"></script>
+<script src="js/functions.js"></script>
+
+</head><body>
 <div id="wrapper"> 
   <!-- HEADER -->
   <div id="header">
@@ -47,19 +56,17 @@
       <div class="box-logo"><a href="index.html"><img alt="logo" src="images/logo.png" /></a></div>
       <div class="box-logo-mobile"><a href="index.html"><img alt="logo" src="images/logo-mobile.png" /></a></div>
       <ul class="nav">
-        
-        <!-- CHANGE THE MENU TITLES HERE -->
-        <li><a id="link-profile" href="profile.html" >
-          <div class="menu-name">My Profile</div>
+        <li><a id="link-profile" href="team.html" >
+          <div class="menu-name">Equipe</div>
           </a></li>
         <li><a id="link-portfolio" href="portfolio.html" >
           <div class="menu-name">Portfolio</div>
           </a></li>
-        <li><a id="link-resume" href="resume.html" >
-          <div class="menu-name">Resume</div>
+        <li><a id="link-resume" href="expertise.html" >
+          <div class="menu-name">Expertise</div>
           </a></li>
-        <li class="current"><a id="link-contact" href="contact.html">
-          <div class="menu-name">Contact</div>
+        <li><a id="link-contact" href="contact.html">
+          <div class="menu-name">Contato</div>
           </a></li>
       </ul>
     </div>
@@ -67,8 +74,8 @@
   <!-- #HEADER ENDS HERE -->
   
   <div id="container">
-    <div class="map">
-      <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=it&amp;geocode=&amp;q=roma&amp;sll=37.0625,-95.677068&amp;sspn=60.158465,135.263672&amp;ie=UTF8&amp;hq=&amp;hnear=Roma,+Lazio,+Italia&amp;t=m&amp;z=11&amp;ll=41.892916,12.48252&amp;output=embed"></iframe>
+    <div class="map">	  
+	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.074019724021!2d-43.947489799999936!3d-19.921285399999952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa69759492f03ef%3A0xdc20c450765429dc!2sRua+Mato+Grosso%2C+355+-+Barro+Preto!5e0!3m2!1spt-BR!2s!4v1394477940008" width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
     </div>
     
     <!-- CONTACT SECTION -->
@@ -78,14 +85,14 @@
           
           <!-- FORM SECTION -->
           <form action="send.php" name="contactform" class="contactform" method="post">
-            <label for="name">Full Name<span class="required">*</span></label>
-            <input type="text" name="name" id="name" placeholder="Enter your name" required="">
-            <label for="company">Company<span class="required">*</span></label>
-            <input type="text" name="company" id="company" placeholder="Where do you work?" required="">
-            <label for="email">Email<span class="required">*</span></label>
-            <input type="email" name="email" id="email" pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$" placeholder="e.g. info@envato.com" required="">
+            <label for="name">Seu nome<span class="required">*</span></label>
+            <input type="text" name="name" id="name" placeholder="" required="">
+            <label for="company">Sua empresa</label>
+            <input type="text" name="company" id="company" placeholder="">
+            <label for="email">Seu email<span class="required">*</span></label>
+            <input type="email" name="email" id="email" pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$" placeholder="" required="">
             <div class="options">
-              <label id="budget1">Personal Options<span class="required">*</span></label>
+              <label id="budget1">Orçamento disponível<span class="required">*</span></label>
               <br>
               <input type="radio" name="option" id="option1" value="10 to 1000" checked="">
               <label for="option1" class="radio">$10 &nbsp;&nbsp;<i class="icon-hand-right green"></i>&nbsp;&nbsp; $1.000</label>
@@ -94,41 +101,53 @@
               <input type="radio" name="option" id="option3" value="5001 to 10000+">
               <label for="option3" class="radio">$5.001 &nbsp;&nbsp;<i class="icon-hand-right green"></i>&nbsp;&nbsp; $10.000+</label>
             </div>
-            <label for="project">Project Description<span class="required">*</span></label>
+            <label for="project">Descrição do projeto<span class="required">*</span></label>
             <br>
-            <textarea name="project" id="project" cols="40" rows="5" placeholder="Describe your project and add some details." required=""></textarea>
-            <button type="submit" name="submit" class="bt-navy txt-right fx1">Send &nbsp;&nbsp;<i class="icon-circle-arrow-right green"></i></button>
+            <textarea name="project" id="project" cols="40" rows="5" placeholder="Descreva seu projeto e adicione alguns detalhes." required=""></textarea>
+            <button type="submit" name="submit" class="bt-navy txt-right fx1">Enviar &nbsp;&nbsp;<i class="icon-circle-arrow-right green"></i></button>
           </form>
           <!-- FORM SECTION ENDS --> 
           
         </div>
         <div class="one-third-last">
-          <h3>Stefano Schintu</h3>
-          <p>Dondoney Blue Road 1233 - North Carolina - (U.S.A)</p>
-          <p><i class="icon-user navy"></i>&nbsp;&nbsp; <strong>+1 003 454.6556.223</strong></p>
-          <p><i class="icon-phone navy"></i>&nbsp;&nbsp; <strong>+1 334 232.2456</strong></p>
-          <p><a href="#"><i class="icon-envelope navy"></i>&nbsp;&nbsp; info@personalmail.com</a></p>
+          <h3>Cellide Soluções em Tecnologia da Informação Ltda.</h3>
+          <p>Rua Mato Grosso, 355 sl 902</p>
+		  <p>Belo Horizonte, MG - Brazil</p>
+          <p><i class="icon-phone navy"></i>&nbsp;&nbsp; <strong>+55 31 9253-5353</strong></p>
+          <p><a href="#"><i class="icon-envelope navy"></i>&nbsp;&nbsp; contato@cellide.com</a></p>
         </div>
       </div>
     </section>
     <!-- CONTACT SECTION ENDS --> 
     
     <!-- FOOTER SECTION -->
-    <div id="footer">
-      <div class="inner-footer">
-        <div class="one-half-first copyright white">All Rights Reserved to Webfolio 2013</div>
-        <div class="one-half-last txt-right"><a class="sc-icons" href="#"><i class="icon-twitter green"></i></a><a class="sc-icons" href="#"><i class="icon-facebook green"></i></a><a class="sc-icons" href="#"><i class="icon-pinterest green"></i></a><a class="sc-icons" href="#"><i class="icon-linkedin green"></i></a><a class="sc-icons" href="#"><i class="icon-flickr green"></i></a></div>
+  <div id="footer-home">
+    <div class="inner-footer">
+      <div class="one-half-first copyright white footer-col1">Cellide</div>
+      <div class="one-half-first txt-right footer-col2">
+      	<div class="fb-like" data-href="https://www.facebook.com/Cellide" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"> </div>
       </div>
+      <div class="one-half-last txt-right footer-col3">
+      	<a class="sc-icons" href="https://www.facebook.com/cellide"><i class="icon-facebook green"></i></a>
+      	<a class="sc-icons" href="https://twitter.com/CellideTI"><i class="icon-twitter green"></i></a>
+      	<a class="sc-icons" href="https://github.com/Cellide"><i class="icon-github green"></i></a>
+      	<a class="sc-icons" href="http://www.linkedin.com/company/cellide"><i class="icon-linkedin green"></i></a>
     </div>
-    <!-- #footer --> 
+  </div>
+  <!-- #footer --> 
   </div>
   <!-- #container --> 
 </div>
 <!-- #wrapper --> 
 
-<!-- JavaScript Files --> 
-<script src="js/jquery.min_1_9.js"></script> 
-<script type="text/javascript" src="js/jquery.min.js"></script> 
-<script type="text/javascript" src="js/functions.js"></script>
+<!-- Optional JavaScript Files --> 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=1492920740935304";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>
