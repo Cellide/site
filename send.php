@@ -9,9 +9,9 @@ if(empty($_POST['name'])  ||
 }
 
 $name = $_POST['name']; 
-$company = $_POST['company'] ?: 'não informada'; 
+$company = $_POST['company']; 
 $email_address = $_POST['email']; 
-$option = $_POST['option'] ?: 'não informado'; 
+$option = $_POST['option']; 
 $project = $_POST['project']; 
 
 if (!preg_match(

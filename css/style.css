@@ -631,10 +631,10 @@ form input#name:required, form input#email:required, form input#company:required
 form input#name:required:valid, form input#email:required:valid, form input#company:required:valid {
   background: white url(../images/ok.svg) no-repeat;
   background-position: 98%;
-  color: #ccc; }
+  color: #333; }
 form textarea {
   display: inline-block;
-  color: #999;
+  color: #333;
   padding: 10px;
   width: 90%;
   border: 1px solid #ccc;
