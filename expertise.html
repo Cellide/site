@@ -17,30 +17,35 @@
 
 <head>
 <meta charset="UTF-8" />
-<meta name="description" content="" />
-<meta name="keywords" content="" />
-<meta name="author" content="Your name" />
-<link rel="shortcut icon" href="images/favicon.ico">
-<title>Webfolio | Responsive Retina Ready</title>
+<meta name="description" content="A Cellide é uma empresa de desenvolvimento Web com foco em criação de plataformas para sites & apps." />
+<meta name="keywords" content="cellide, picker, takesquare, desenvolvimento, programação" />
+<meta name="author" content="Fernando Piancastelli" />
+
+<link rel="shortcut icon" href="favicon.ico">
+
+<title>Cellide | Contato</title>
 
 <!-- Mobile viewport optimized: j.mp/bplateviewport -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <!-- Style -->
+<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet" />
 <link href="css/style.css" rel="stylesheet" />
 <link href="css/shortcodes.css" rel="stylesheet" />
 <link href="css/responsive.css" rel="stylesheet" />
-<link href="css/font-awesome.css" rel="stylesheet" />
-<link href="css/font-awesome.min.css" rel="stylesheet" />
 
 <!-- Importing Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+<script src="js/functions.js"></script>
+
 </head>
 
 <body>
 <div id="wrapper"> 
-  
   <!-- HEADER -->
   <div id="header">
     <div class="btn-responsive-menu"> <span class="span-bar"></span> <span class="span-bar"></span> <span class="span-bar"></span> </div>
@@ -48,19 +53,17 @@
       <div class="box-logo"><a href="index.html"><img alt="logo" src="images/logo.png" /></a></div>
       <div class="box-logo-mobile"><a href="index.html"><img alt="logo" src="images/logo-mobile.png" /></a></div>
       <ul class="nav">
-        
-        <!-- CHANGE THE MENU TITLES HERE -->
-        <li><a id="link-profile" href="profile.html" >
-          <div class="menu-name">My Profile</div>
+        <li><a id="link-profile" href="team.html" >
+          <div class="menu-name">Equipe</div>
           </a></li>
         <li><a id="link-portfolio" href="portfolio.html" >
           <div class="menu-name">Portfolio</div>
           </a></li>
-        <li class="current"><a id="link-resume" href="resume.html" >
-          <div class="menu-name">Resume</div>
+        <li class="current"><a id="link-resume" href="expertise.html" >
+          <div class="menu-name">Expertise</div>
           </a></li>
         <li><a id="link-contact" href="contact.html">
-          <div class="menu-name">Contact</div>
+          <div class="menu-name">Contato</div>
           </a></li>
       </ul>
     </div>
@@ -210,22 +213,34 @@
     <!-- PROFILE SECTION ENDS --> 
     
     <!-- FOOTER SECTION -->
-    <div id="footer">
-      <div class="inner-footer">
-        <div class="one-half-first copyright white">All Rights Reserved to Webfolio 2013</div>
-        <div class="one-half-last txt-right"><a class="sc-icons" href="#"><i class="icon-twitter green"></i></a><a class="sc-icons" href="#"><i class="icon-facebook green"></i></a><a class="sc-icons" href="#"><i class="icon-pinterest green"></i></a><a class="sc-icons" href="#"><i class="icon-linkedin green"></i></a><a class="sc-icons" href="#"><i class="icon-flickr green"></i></a></div>
+  <div id="footer-home">
+    <div class="inner-footer">
+      <div class="one-half-first copyright white footer-col1">Cellide</div>
+      <div class="one-half-first txt-right footer-col2">
+      	<div class="fb-like" data-href="https://www.facebook.com/Cellide" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"> </div>
       </div>
+      <div class="one-half-last txt-right footer-col3">
+      	<a class="sc-icons" href="https://www.facebook.com/cellide"><i class="icon-facebook green"></i></a>
+      	<a class="sc-icons" href="https://twitter.com/CellideTI"><i class="icon-twitter green"></i></a>
+      	<a class="sc-icons" href="https://github.com/Cellide"><i class="icon-github green"></i></a>
+      	<a class="sc-icons" href="http://www.linkedin.com/company/cellide"><i class="icon-linkedin green"></i></a>
     </div>
-    <!-- #footer --> 
+  </div>
+  <!-- #footer --> 
   </div>
   <!-- #container --> 
 </div>
 <!-- #wrapper --> 
 
-<!-- JavaScript Files --> 
-<script src="js/jquery.min_1_9.js"></script> 
-<script type="text/javascript" src="js/jquery.min.js"></script> 
-<script type="text/javascript" src="js/functions.js"></script> 
+<!-- Optional JavaScript Files --> 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=1492920740935304";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <script>
     $(function() {
         $("ul li div").each(function() {
