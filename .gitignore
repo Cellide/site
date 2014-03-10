@@ -1,0 +1,7 @@
+.project
+.c9*
+node_modules/*
+appshop/*
+*.sublime*
+.settings
+.settings/*
