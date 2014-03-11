@@ -349,7 +349,7 @@ a.sc-icons:hover {
   content: "";
   height: 30px;
   width: auto;
-  color: #fff;
+  color: #333;
   -webkit-transition: 0.3s all 0s;
   -moz-transition: 0.3s all 0s;
   -o-transition: 0.3s all 0s;
@@ -362,17 +362,18 @@ a.sc-icons:hover {
   right: auto;
   left: 10px; }
 .content .slider .callbacks_nav.prev:hover, .content .slider .callbacks_nav.next:hover {
-  opacity: 0.9; }
+  opacity: 0.9;
+  color: #000; }
 .content .slider .callbacks_nav.next:before {
   font-family: FontAwesome;
   font-size: 30px;
   content: "\f0a9";
-  color: #fff; }
+  color: #333; }
 .content .slider .callbacks_nav.prev:before {
   font-family: FontAwesome;
   font-size: 30px;
   content: "\f0a8";
-  color: #fff; }
+  color: #333; }
 
 #profile {
   float: left;
