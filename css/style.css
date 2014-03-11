@@ -401,6 +401,11 @@ a.sc-icons:hover {
   margin: 0 auto;
   text-align: center; }
 
+.portfolio-link {
+	font-size: 1.2em;
+	margin: 0.2em 0 0.8em 0;
+}
+
 #resume {
   float: left;
   width: 100%;
