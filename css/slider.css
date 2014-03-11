@@ -116,7 +116,7 @@
   left: 0;
   right: 0;
   text-align: center;
-  line-height: normal;
+  line-height: 2em;
   bottom: 50%;
   margin: 0 20px; }
 .content-slide .sd-slide .highlight {

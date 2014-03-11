@@ -235,6 +235,10 @@
   .box {
     width: 33% !important;
     margin: 1px 2px 1px 0; }
+	
+	#nav-dots {
+		display: none;
+	}
 
   /* Footer */
   #footer-home {
@@ -247,6 +251,10 @@
     margin-bottom: 10px; }
   #footer .inner-footer div {
     text-align: center !important; }
+	
+	.footer-col3 {
+		display: none;
+	}
 
   .timeline li .info {
     width: 67%; }
