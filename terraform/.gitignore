@@ -1,0 +1,27 @@
+# Local .terraform directories and files
+*/**/.terraform/*
+*/**/.terraform/
+**/.terraform/*
+**/.terraform/
+*/**/tfplan.out
+*/**/.tfstate
+*/**/.tfstate.*
+*/**/terraform.tfstate
+*/**/terraform.tfstate*
+# local env vars
+*.tfvars
+# dont let lock.hck spill to TF Cloud, not needed there
+*.lock.hcl
+*.lock.info
+*/**/localstack_providers_override.tf
+# dont let local files interfere with TF Cloud
+*/**/*_local.tf
+
+# Crash log files
+**/crash.log
+
+# Ignore other
+*.swp
+*/**/.idea
+.idea/*
+.idea
