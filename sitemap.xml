@@ -3,19 +3,19 @@
 <url>
 	<loc>http://www.cellide.com/</loc>
 	<priority>0.5</priority>
-	<lastmod>2014-03-11T14:51:25+00:00</lastmod>
+	<lastmod>2015-03-27T17:55:54+00:00</lastmod>
 	<changefreq>monthly</changefreq>
 </url>
 <url>
 	<loc>http://www.cellide.com/portfolio.html</loc>
 	<priority>0.5</priority>
-	<lastmod>2014-03-11T14:52:56+00:00</lastmod>
+	<lastmod>2015-03-27T17:55:54+00:00</lastmod>
 	<changefreq>monthly</changefreq>
 </url>
 <url>
 	<loc>http://www.cellide.com/expertise.html</loc>
 	<priority>0.5</priority>
-	<lastmod>2014-03-17T14:52:46+00:00</lastmod>
+	<lastmod>2015-03-27T17:55:54+00:00</lastmod>
 	<changefreq>monthly</changefreq>
 </url>
 <url>
@@ -33,37 +33,43 @@
 <url>
 	<loc>http://www.cellide.com/pages/takesquare.html</loc>
 	<priority>0.5</priority>
-	<lastmod>2014-03-11T16:56:09+00:00</lastmod>
+	<lastmod>2015-03-27T17:55:54+00:00</lastmod>
 	<changefreq>yearly</changefreq>
 </url>
 <url>
 	<loc>http://www.cellide.com/pages/silvacursos2013.html</loc>
 	<priority>0.5</priority>
-	<lastmod>2014-03-11T16:55:59+00:00</lastmod>
+	<lastmod>2015-03-27T17:55:54+00:00</lastmod>
 	<changefreq>yearly</changefreq>
 </url>
 <url>
 	<loc>http://www.cellide.com/pages/98fmnoenem.html</loc>
 	<priority>0.5</priority>
-	<lastmod>2014-03-11T16:55:36+00:00</lastmod>
+	<lastmod>2015-03-27T17:55:54+00:00</lastmod>
 	<changefreq>yearly</changefreq>
 </url>
 <url>
 	<loc>http://www.cellide.com/pages/sx2.html</loc>
 	<priority>0.5</priority>
-	<lastmod>2014-03-11T16:56:05+00:00</lastmod>
+	<lastmod>2015-03-27T17:55:54+00:00</lastmod>
 	<changefreq>monthly</changefreq>
 </url>
 <url>
 	<loc>http://www.cellide.com/pages/natura.html</loc>
 	<priority>0.5</priority>
-	<lastmod>2014-03-11T16:55:47+00:00</lastmod>
+	<lastmod>2015-03-27T17:55:54+00:00</lastmod>
 	<changefreq>yearly</changefreq>
 </url>
 <url>
 	<loc>http://www.cellide.com/pages/picker.html</loc>
 	<priority>0.5</priority>
-	<lastmod>2014-03-11T16:55:54+00:00</lastmod>
+	<lastmod>2015-03-27T17:55:54+00:00</lastmod>
+	<changefreq>monthly</changefreq>
+</url>
+<url>
+	<loc>http://www.cellide.com/pages/smartconvert.html</loc>
+	<priority>0.5</priority>
+	<lastmod>2015-03-27T17:55:54+00:00</lastmod>
 	<changefreq>monthly</changefreq>
 </url>
 </urlset>
